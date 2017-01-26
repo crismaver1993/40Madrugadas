@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relativeL">
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/scrol"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+        <TextView
+            android:focusable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:id="@+id/txtTitulo"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+            android:textColor="#ed9a1d"
+            android:padding="8dp"
+            android:textSize="22sp"
+            android:focusableInTouchMode="false"
+            android:textStyle="bold" />
+
+        <TextView
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Text"
+            android:id="@+id/txtTexto"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:textColor="#010101"
+            android:textSize="16sp"
+            android:focusable="false"
+            android:textIsSelectable="true" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estoy orando por:"
+        android:textColor="#000000"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="13dp"
+        android:id="@+id/txtOrandoPor"
+        android:textSize="19dp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:focusableInTouchMode="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/txtPersonas"
+        android:hint="Anote personas para orar por ellas"
+        android:textColor="#1e1a1a"
+        android:textStyle="bold"
+        android:textSize="19sp"
+        android:padding="10dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="2dp" />
+
+</LinearLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/multiple_actions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="7dp"
+        android:layout_marginRight="7dp"
+        fab:fab_addButtonColorNormal="@color/colorPrimaryDark"
+        fab:fab_addButtonColorPressed="@color/colorPrimary"
+        fab:fab_addButtonPlusIconColor="#ffffff"
+        android:layout_gravity="right|bottom">
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/pink_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_tools"
+            fab:fab_colorNormal="@color/colorPrimary"
+            fab:fab_colorPressed="@color/colorAccent"
+            />
+        <!--fab:fab_title="Foto"-->
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabRemoveMark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_desmark"
+            fab:fab_colorNormal="@color/colorPrimary"
+            fab:fab_size="mini"
+            fab:fab_colorPressed="@color/colorAccent"
+            />
+        <!-- fab:fab_title="Nueva carpeta"-->
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabMark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_mark"
+            fab:fab_colorNormal="@color/colorPrimary"
+            fab:fab_size="mini"
+            fab:fab_colorPressed="@color/colorAccent"
+            fab:fab_title="Subrayar"
+            />
+        <!-- fab:fab_title="Nueva carpeta"-->
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+</RelativeLayout>
+

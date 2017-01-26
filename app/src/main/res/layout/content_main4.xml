@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="start"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    android:id="@+id/grupo4"
+    tools:showIn="@layout/activity_main"
+    android:visibility="gone">
+
+    <LinearLayout
+        android:layout_marginTop="160dp"
+        android:layout_marginBottom="130dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+    <TableLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/tableLayout7"
+       >
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_weight=".2"
+            android:text="Día 31"
+            android:id="@+id/dia31"
+            android:onClick="click31"
+            android:layout_marginTop="15dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_weight=".2"
+            android:text="Día 32"
+            android:id="@+id/dia32"
+            android:onClick="click32"
+            android:layout_marginTop="15dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2"
+            android:padding="5dp"
+            android:text="Día 33"
+            android:id="@+id/dia33"
+            android:onClick="click33"
+            android:layout_marginTop="15dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2"
+            android:padding="5dp"
+            android:text="Día 34"
+            android:id="@+id/dia34"
+            android:onClick="click34"
+            android:layout_marginTop="15dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2"
+            android:padding="5dp"
+            android:text="Día 35"
+            android:id="@+id/dia35"
+            android:onClick="click35"
+            android:layout_marginTop="15dp" />
+
+    </TableLayout>
+
+    <TableLayout
+
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/tableLayout8">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:padding="5dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2"
+            android:text="Día 36"
+            android:id="@+id/dia36"
+            android:onClick="click36"
+            android:layout_marginTop="15dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:padding="5dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2"
+            android:text="Día 37"
+            android:id="@+id/dia37"
+            android:onClick="click37"
+            android:layout_marginTop="18dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2"
+            android:padding="5dp"
+            android:text="Día 38"
+            android:id="@+id/dia38"
+            android:onClick="click38"
+            android:layout_marginTop="18dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2"
+            android:padding="5dp"
+            android:text="Día 39"
+            android:id="@+id/dia39"
+            android:onClick="click39"
+            android:layout_marginTop="18dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2"
+            android:padding="5dp"
+            android:text="Día 40"
+            android:id="@+id/dia40"
+            android:onClick="click40"
+            android:layout_marginTop="18dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2"
+            android:padding="5dp"
+            android:text="Día 41"
+            android:id="@+id/dia41"
+            android:onClick="click41"
+            android:layout_marginTop="12dp" />
+
+    </TableLayout>
+
+</LinearLayout>
+</RelativeLayout>

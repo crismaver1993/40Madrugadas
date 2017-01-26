@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">40 Madrugadas</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="titulo1"> Salvo por un día </string>
+    <string name="titulo2"> Una receta espiritual-1</string>
+    <string name="titulo3"> Una receta espiritual-2</string>
+    <string name="titulo4">Cómo entender el lenguaje de Cristo </string>
+    <string name="titulo5">Qué significa meditar en la Palabra-1</string>
+    <string name="titulo6">Qué significa meditar en la Palabra-2</string>
+    <string name="titulo7">Meditación y crecimiento espiritual </string>
+    <string name="titulo8">La práctica de la meditación-1</string>
+    <string name="titulo9">La práctica de la meditación-2 </string>
+    <string name="titulo10">¡Eres una persona de éxito!</string>
+
+    <string name="titulo11">Cómo alimentar la naturaleza de Cristo</string>
+    <string name="titulo12">Cómo encontrar a Cristo-1  </string>
+    <string name="titulo13">Cómo encontrar a Cristo-2</string>
+    <string name="titulo14">Crecimiento en Cristo </string>
+    <string name="titulo15">Salvo para ser santo </string>
+    <string name="titulo16">Una experiencia más alta </string>
+    <string name="titulo17">Ofrendas voluntarias </string>
+    <string name="titulo18">Diezmo y espiritualidad </string>
+    <string name="titulo19">La Consagración</string>
+    <string name="titulo20">El privilegio de hablar con Dios-1 </string>
+
+    <string name="titulo21">El privilegio de hablar con Dios-2</string>
+    <string name="titulo22">Cuando el pueblo de Dios ora</string>
+    <string name="titulo23">El poder de la intercesión </string>
+    <string name="titulo24">Promesas acerca de la oración</string>
+    <string name="titulo25">Cómo convertirse en un intercesor poderoso</string>
+    <string name="titulo26">Formación Espiritual </string>
+    <string name="titulo27">La mente y la salud espiritual-1 </string>
+    <string name="titulo28">La mente y la salud espiritual-2</string>
+    <string name="titulo29">Las influencias espirituales y la mente-1</string>
+    <string name="titulo30">Las influencias espirituales y la mente-2 </string>
+
+    <string name="titulo31">Cómo tener paz y salud mental </string>
+    <string name="titulo32">Alegría en el Señor</string>
+    <string name="titulo33">Canales de luz y bendición</string>
+    <string name="titulo34">Un llamado individual</string>
+    <string name="titulo35">El Zarandeo</string>
+    <string name="titulo36">Las causas del zarandeo</string>
+    <string name="titulo37">La extensión del zarandeo </string>
+    <string name="titulo38">Lecciones del zarandeo</string>
+    <string name="titulo39">La voz de la consagración</string>
+    <string name="titulo40">Termina el conflicto entre Cristo y Satanás </string>
+    <string name="titulo41">El Reencuentro</string>
+
+
+
+</resources>
